@@ -16,3 +16,27 @@ make install
 # or manually:
 pip install -r requirements.txt
 ```
+
+## Usage
+
+### From the project root, use:
+
+```bash
+make run
+```
+
+This will create the output folder `CSV` and write the CSV files there.
+
+Alternatively:
+
+```bash
+./run.sh Dados_Cafe
+```
+
+### Clean Generated CSVs
+
+To remove all .csv files in the output folder:
+
+```bash
+make clean
+```

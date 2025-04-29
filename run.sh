@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-python3 script.py "$1"
+python3 data_prep.py "$1"
